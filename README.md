@@ -1,4 +1,4 @@
-# 华南理工大学《数学实验》MATLAB作业参考代码
+# 华南理工大学《数学实验》MATLAB 作业参考代码
 
 ## MATLAB Assignments of SCUT - Source Code (Personal)
 
