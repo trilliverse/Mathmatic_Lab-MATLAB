@@ -1,0 +1,21 @@
+实验报告/
+*.docx
+*.pptx
+/test.docx
+/test.mlx
+# .gitignore
+
+*.xlsx
+*.pdf
+*.pptx
+
+!*.png
+!*.jpg
+!*.jpeg
+!作业一 MATLAB基础/*.m
+!作业二 数据拟合/*.m
+!作业三 微分方程/*.m
+!作业四 插值方法/*.m
+!作业五 特征值与特征向量/*.m
+!作业六 古典概型/*.m
+!作业七 回归分析/*.m
