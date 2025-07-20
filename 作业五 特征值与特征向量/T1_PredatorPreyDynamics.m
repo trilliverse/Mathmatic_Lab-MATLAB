@@ -6,6 +6,7 @@ c = 0;
 d = 2000;
 
 n = 100; % 迭代次数
+% xlabel('$|\lambda|=1,|u|<1$', 'Interpreter', 'latex');
 xlabel('$|\lambda|>1,|u|<1$', 'Interpreter', 'latex');
 axis([a b c d]); 
 grid on;
@@ -13,7 +14,8 @@ hold on
 x = linspace(a, b, 30);
 
 p = 0.125; % 捕食参数
-A = [0.5, 0.4; -p, 1.2]; % 状态矩阵
+% A = [0.5, 0.4; -p, 1.1]; % 状态矩阵
+A = [0.5, 0.4; -p, 1.2]; % 状态矩阵轻微变动分析
 [pc, lambda] = eig(A); % 特征值与特征向量
 lambda_values = diag(lambda);
 abs_lambda = abs(lambda_values);

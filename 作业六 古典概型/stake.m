@@ -15,9 +15,9 @@ function [Awin, Bwin, pA, pB, p_rats, p] = stake(n)
             Bwin = Bwin + 0.5;
         end
     end
-    tot = Awin + Bwin;
-    pA = Awin / tot;
-    pB = Bwin / tot;
+
+    pA = Awin / (Awin + Bwin);
+    pB = Bwin / (Awin + Bwin);
     p_rats = rats(Awin / Bwin); % 有理输出
     p = Awin / Bwin;
 end

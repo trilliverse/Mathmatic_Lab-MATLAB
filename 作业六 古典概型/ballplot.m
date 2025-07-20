@@ -4,7 +4,7 @@ function ballplot(maxn)
     pB_values = zeros(1, maxn);
     pC_values = zeros(1, maxn);
 
-    for n = 1:maxn
+    parfor n = 1:maxn
         [~, ~, ~, pA, pB, pC] = Ball(4, 8, n);
         pA_values(n) = pA;
         pB_values(n) = pB;
