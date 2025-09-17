@@ -31,7 +31,7 @@
 1. 克隆本仓库到本地：
 
    ```bash
-   git clone https://github.com/your-username/SCUT-MathExp-MATLAB.git
+   git clone https://github.com/trilliverse/Mathmatic_Lab-MATLAB.git
    ```
 
 2. 使用 MATLAB 打开并运行对应的作业文件。
